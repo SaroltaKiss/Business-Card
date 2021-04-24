@@ -1,0 +1,96 @@
+/* CSS reset */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 100%;
+}
+
+/* positions */
+
+body {
+    background: url(https://res.cloudinary.com/zizoo/images/f_auto,q_auto/v1603211509/winter-sailing-preparations/winter-sailing-preparations.jpg);
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.info {
+	text-align: center;
+}
+
+.profil-card {
+	width: 600px;
+	max-width: calc(100vw - 10px);
+	background-color: rgba(88, 28, 53, 0.65);
+	border-radius: 5%;
+	border: 1px solid rgb(129, 46, 46);
+	box-shadow: 10px 10px 10px 1px;
+}
+.info, .img{
+	width: 100%;
+	margin: 0 auto;
+}
+
+.img {
+	height: auto;
+	width: 190px;
+}
+
+img {
+	height: 100%;
+	width: 100%;
+	border-radius: 70px;
+	background: grey;
+	padding: 1px;
+	margin-top: -60px;
+}
+
+img:hover {
+	transform: scale(1.1);
+	transition: all 0.5s ease-in-out;
+}
+
+.about-me {
+	margin-bottom: 30px;
+}
+
+h1 {
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    font-size: 25px;
+    margin-top: 13%;
+}
+
+h2 {
+    font-size: 19px;
+    letter-spacing: 0.05em;
+}
+
+.about-me {
+    line-height: 1.4;
+    margin-top: -10%;
+}
+
+ul {
+    list-style-type: none;
+}
+
+li {
+    display: inline;
+}
+
+i {
+    letter-spacing: 0.3em;
+    color: rgba(93, 94, 91, 1);
+}
+
+i:hover {
+    transform: scale(1.2);
+    transition: all 0.5s ease-in-out;
+    color: rgb(33, 83, 177);
+}
